@@ -2,8 +2,9 @@ import { DefaultTheme } from "styled-components";
 
 export const theme: DefaultTheme = {
   colors: {
-    primary: "#FAFAFA",
+    primary: "#232F3E",
     secondary: "#FFC80A",
+    themeText: "#000000",
     tertiary: "#303030",
     background: "#ffffff",
     text: "#000000",
@@ -31,6 +32,6 @@ export const theme: DefaultTheme = {
   },
   margins: {
     pageTop: "30px",
-    cardBottom: "5px",
+    cardBottom: "30px",
   },
 };
