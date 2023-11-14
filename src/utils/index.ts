@@ -2,7 +2,7 @@ export const storyCount = 10;
 
 export const formatTimestamp = (timeStamp: number): string => {
   const date = new Date(timeStamp * 1000);
-  return date.toLocaleString();
+  return date.toLocaleDateString();
 };
 
 export const getRandomItems = (array: number[], count: number): number[] => {
